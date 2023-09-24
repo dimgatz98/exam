@@ -1,0 +1,72 @@
+WindowManager:
+    MenuWindow:
+    ExamWindow:
+
+
+<MenuWindow>:
+    name: "menu"
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+        Label:
+            text: "Exam"
+            font_size: 32
+
+        Button:
+            background_normal: "media/start.png"
+            font_size: 32
+            pos_hint: {'center_x': 0.52}
+            on_release: 
+                app.root.current = "exam"
+                root.manager.transition.direction = "left"
+        
+<ExamWindow>:
+    name: "exam"
+
+    BoxLayout:
+        id: top_level
+        orientation: "vertical"
+        size: root.width, root.height
+
+        BoxLayout:
+            orientation: "horizontal"
+            size: root.width, root.height
+            Label:
+                id: correct
+                text: "Correct: 0"
+                font_size: 32
+            Label:
+                id: incorrect
+                text: "Incorrect: 0"
+                font_size: 32
+
+        Label:
+            id: question_label
+            text: ""
+            font_size: 32
+
+        TextInput:
+            id: input
+            font_size: 32
+            hint_text:'Enter your answer here:'
+
+        BoxLayout:
+            id: box
+            orientation: "horizontal"
+            size: root.width, root.height
+            Button:
+                id: submit
+                text: "Submit"
+                font_size: 32
+                on_release: root.manager.get_screen('exam').check_answer()
+
+            Button:
+                text: "Go Back"
+                font_size: 32
+                pos_hint: {'x':1}
+                on_release: 
+                    app.root.current = "menu"
+                    root.manager.transition.direction = "right"
+        

@@ -1,0 +1,178 @@
+Ceph: provides a unified storage service with object, block, and file interfaces from a single cluster built from commodity hardware components.
+Copy-on-write or CoW: is a technique to efficiently copy data resources in a computer system. If a unit of data is copied but not modified, the "copy" can exist as a reference to the original data
+/etc/profile.d: It contains other scripts like application scripts, executed after login.
+OpenMetal external network: default public network
+OpenStack Host aggregates: are a mechanism for partitioning hosts in an OpenStack cloud, or a region of an OpenStack cloud, based on arbitrary characteristics. Examples where an administrator may want to do this include where a group of hosts have additional hardware or performance characteristics.
+/sys: - It is a virtual file system for modern Linux distributions to store and allow modification of the devices connected to the system.
+cmp: compare two files byte by byte
+Code Segment register: or CS register stores the starting address of the code segment which contains all the instructions to be executed.
+Symbolic links: (also called "soft" links) are files that point to a file or directory in your system, but don't mirror the other file's data
+single logical volumes: of multiple physical volumes or entire hard disks (somewhat similar to RAID 0, but more similar to JBOD), allows for dynamic volume resizing.
+Type 2 hypervisor: is hosted, running as software on the OS, which in turn runs on the physical hardware
+OpenMetal assets: hardware control plane nodes
+getfacl: get file access control lists
+Privileged access management (PAM): consists of the cybersecurity strategies and technologies for exerting control over the elevated (“privileged”) access and permissions for users, accounts, processes, and systems across an IT environment.mmap(): creates a new mapping in the virtual address space of the calling process.  The starting address for the new mapping is specified in addr.  The length argument specifies the length of the mapping (which must be greater than 0).
+findmnt: find a filesystem (mount)
+PIC: (Programmable Interrupt Controller) sits between interrupts and CPU and converts interrupts to vector loaded in a register which is then forwared to the CPU's ports (INTR, NMI)
+(Block group or just block: is just a group of data.)
+SELinux: (Security-Enhanced Linux), is a Linux security (kernel) module (LSM), which makes it possible to define a policy of compulsory access control to the elements of a system derived from Linux.
+/etc/sysctl.conf: file is used to override default kernel parameter values
+/mnt :- It contains temporary mount directories for mounting the file system.
+AutoFS: controls the operations of automount daemons. Automount daemons automatically mounts filesystems (e.g. NFS, ext3, ext4, xfs etc.) when in use and unmounts them after a period of inactivity. This is done based on a set of pre-configured maps. The major drawback of the Linux fstab is the number of mounting point information. When we add the number of mount point information to it, it will assign the dedicated resources to handle it irrespective of how frequently the users are accessing the mounted file system. Unnecessary system resources are consumed, and the system performance will be degraded.
+A microkernel: is a type of operating system kernel that is designed to provide only the most basic services required for an operating system to function, such as memory management and process scheduling
+bg: resumes execution of a suspended process as if they had been started with &. Use bg command to restart a stopped background process
+Interrupt process: CPU checks the current privilege level -> if need to change privilege level -> change stack with the one associated with new privilege -> save old stack information on the new stack
+tac: concatenate and print files in reverse
+/srv: - It contains server-specific and server-related files.
+/etc/X11:	Directory tree which contains all the conf files for the X-window System
+ifstat: Report InterFace STATistics
+/usr/lib:	 It contains object files and libraries.
+/etc:	- system configuration files.
+/dev:	- It is the location of the device files such as dev/sda1, dev/sda2, etc.
+systemctl: Control the systemd system and service manager (daemon-reload - reload systemd manager configuration)
+runqueue: The runqueue is the list of runnable processes on a given processor; there is one runqueue per processor. Each runnable process is on exactly one runqueue. Each runqueue contains two priority arrays, the active and the expired array.
+Full virtualization: (fv) employs techniques used to create instances of an environment, as opposed to simulation, which models the environment; or emulation, which replicates the target environment such as certain kinds of virtual machine environments
+The X Window System: (X11, or simply X) is a windowing system (software suite that manages separately different parts of display screens. It is a type of graphical user interface (GUI) which implements the WIMP (windows, icons, menus, pointer) paradigm for a user interface) for bitmap displays, common on Unix-like operating systems.
+lxc-checkconfig: check the current kernel for lxc support
+Scheduling: Priority arrays are the data structures that provide O(1) scheduling. Each priority array contains one queue of runnable processors per priority level. These queues contain lists of the runnable processes at each priority level. The priority arrays also contain a priority bitmap used to efficiently discover the highest-priority runnable task in the system. The active array contains all the tasks in the associated runqueue that have timeslice (run time on CPU) left. The expired array contains all the tasks in the associated runqueue that have exhausted their timeslice. When each task's timeslice reaches zero, its timeslice is recalculated before it is moved to the expired array. When the active array becomes empty, the two array pointers are switched etc.
+getent: get entries from Name Service Switch libraries($ getent group -- list groups)
+/etc/profile:	 Bash shell defaults.
+pkill -u "username": kill all processes from username "username"
+xfs: https://en.wikipedia.org/wiki/XFS#Features
+A monolithic kernel: is an operating system architecture where the entire operating system is working in kernel space.
+comm: compare two sorted files line by line
+(GDT= Group Descriptor Table)
+blkid: locate/print block device attributes
+RIP: internal gateway protocol using bellman-ford (complexity O(V  E))
+netstat:  Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+id: print real and effective user and group IDs
+/etc/group: - contains informations about groups (also accessible with $ getent group)
+/tmp :- temporary space, typically cleared on reboot.
+systemctl start autofs: starts autofs service
+/bin :-  binary or executable programs.
+fsck: check and repair a Linux filesystem
+/proc/meminfo:	It reports the memory usage information.
+fdisk - manipulate disk partition table (-l : list, )
+w: Show who is logged on and what they are doing
+(An inode: is an index node. It serves as a unique identifier for a specific piece of metadata on a given filesystem. Each piece of metadata describes what we think of as a file.)
+/proc/swaps: It contains swap file information.
+parted - a partition manipulation program (mklabel: create a partition table, mkpart: create a partition)
+EIP: stands for Extended Instruction Pointer and is used to track the address of the current instruction running inside the application.
+/etc/auto.master: - This is the master file for autofs utility. As the name suggests, it will manage overall automount functionality on the Linux operating system. In this file, we are adding the root directory information for the automount.
+lxc-start | lxc-stop: starts/stops a container
+RAID 0: (also known as a stripe set or striped volume) splits ("stripes") data evenly across two or more disks, without parity information, redundancy, or fault tolerance.
+ext4: https://en.wikipedia.org/wiki/Ext4#Features
+lsattr: list file attributes
+Parity System: https://en.wikipedia.org/wiki/Standard_RAID_levels#General_parity_system
+AppArmor: ( Application Armor ) is security software for Linux released under the GNU General Public License. AppArmor allows the system administrator to associate each program with a security profile that restricts its access to the operating system. It complements the traditional Unix model of discretionary access control (DAC ) by allowing the use of mandatory access control (MAC).
+adduser, addgroup: add a user or group to the system
+/lib: - It contains kernel modules and a shared library.
+Qcow: is a disk image format used by QEMU , a virtual machine hypervisor that runs inside another operating system. Qcow stands for QEMU Copy On Write and uses a disk storage optimization strategy that delays storage allocation until it is actually needed.
+RAID 1: consists of an exact copy (or mirror) of a set of data on two or more disks; a classic RAID 1 mirrored pair contains two disks. This configuration offers no parity, striping, or spanning of disk space across multiple disks, since the data is mirrored on all disks belonging to the array, and the array can only be as big as the smallest member disk.
+nload: displays the current network usage
+HugePages: In modern-day architecture, multiple page size support is provided; for example, x86 CPUs can support 4K and 2M page sizes (if architectural support is available, 1G page size is also supported), whereas ia64 supports 4K, 8K, 64K, 256K, and so on. Hugepages have something known as a translation lookaside buffer (abbreviated as TLB) which facilitates caching of virtual to physical translations. With bigger and bigger physical memory now getting available, optimizing the scarce TLB resource in supporting hugepages is becoming more critical. When the nr_hugepages option changes (in /etc/sysctl.conf), the administrator can allocate persistent hugepages on the kernel boot line command. This allocation can free up hugepages as well if required.
+Type 1 hypervisor: is a layer of software installed directly on top of a physical server and its underlying hardware
+switch: connects machines
+OpenStack projects: handle the core cloud-computing services of compute, networking, storage, identity, and image services
+0.0.0.0 in the routing table's gateway: means the target machine is directly connected to the router
+SMP: (symmetric multiprocessing) is computer processing done by multiple processors that share a common operating system (OS) and memory and no CPU is selected as the Master CPU.
+mdadm: Multiple Disk and Device Management.
+preemptive: means when a new process is ready to run, the CPU will be allocated to the new process, it doesn't need the running process be co-operative and give up the CPU. Linux kernel is preemptive means that The kernel supports preemption.
+/etc/security/limits.conf: - configuration file for the pam_limits module (The pam_limits PAM            -- Privileged Access Management -- module sets limits on the system resources that can be obtained in a user-session)
+/proc :- It is a virtual and pseudo-file system that contains info about the running processes with a specific process ID or PID.
+mktemp: create a temporary file or directory
+GNU emacs: text editor
+the sticky bit: is a user ownership access right flag that can be assigned to files and directories on Unix-like systems. Today, the sticky bit restricts who can delete files in a directory on Linux systems.
+/media:	- It contains subdirectories where removable media devices are inserted.
+/usr/share:	It contains architecture independent shareable text files.
+getty: short for "get tty", is a Unix program running on a host computer that manages physical or virtual terminals (TTYs).
+RAID 10: is a combination of 0 and 1, namely it spreads data and holds a duplicate for a each drive.
+ll /usr/share/lxc/templates/: list lxc available templates
+/usr: - User related programs.
+A partition table: is a table maintained on a disk by the operating system that outlines and describes the partitions on that disk.
+/run: - It stores volatile runtime data.
+hping3: is a network tool able to send custom  TCP/IP  packets and  to  display  target  replies like ping program does with ICMP replies
+ltrace: A library call tracer
+btrfs: https://en.wikipedia.org/wiki/Btrfs#Features
+signals: in user-space mediated by the kernel handled by processes
+initramfs: is an initial ram file system based on tmpfs (a size-flexible, in-memory lightweight file system)
+/proc/stat:	It displays detailed statistics for the system.
+Xen: is a free and open-source type-1 hypervisor
+lsof: list open files (if file is deleted but not freed it may be open -- check lsof)
+lxc-ls: list lxc containers (--stopped | --running)
+save EFLAGS, CS (code segment), EIP (Extended Instruction Pointer) on stack -> save error code on stack in case of an abort -> execute the kernel interrupt handler -> pop the error code (in case of an abort) -> call IRET (1. Pops values from the stack and restore the following register: CS, EIP, EFLAGS 2. If privilege level changed returns to the old stack and old privilege level)
+mm: virtual memory mapping (useless in kernel space)
+GParted: is a free partition editor for graphically managing your disk partitions.
+/etc/init.d: -  All services work on several scripts and these scripts are stored in /etc/init.d location, this init.d is a daemon which is the first process of the Linux system. Then other processes, services, daemons, and threads are started by init.
+Process context: The kernel is executing in process context when it is running a system call. In process context we can sleep (wait on a condition). In process context we can access the user-space (unless we are running in a kernel thread context).
+automount: manage autofs mount points
+X display manager (DM): is a graphical login manager which starts a login session on an X server (setup at boot time) from the same or another computer. (gdm3 -> default, lightDM)
+Framebuffer: (frame buffer, or sometimes framestore) is a portion of random-access memory (RAM) containing a bitmap that drives a video display.
+/proc/ioports:	Contains all the Input and Output ports used by devices on the system
+/etc/security: contains user, groups, pam, limits etc
+sysctl: configure kernel parameters at runtime (-p reload)
+setfacl: set file access control lists
+gzip, gunzip: compress files
+Interrupt context: Interrupt context is when the interrupt occurs state/priority goes to interrupt handler, and current process stops/saves until we complete interrupt, Interrupt context is not time consumable, non preemptable, It cannot go into the sleep.
+router: connects switches and exposes the with a single IP to the internet
+/proc/cpuinfo:	CPU Information
+RAID 6: extends RAID 5 by adding another parity block; thus, it uses block-level striping with two parity blocks distributed across all member disks.
+lxc-config -l: list lxc available configurations
+load_balancer: balances the processes among the different processors
+uname -a: print distro version
+ulimit: get and set user limits
+(The group descriptor table: contains one descriptor entry for each block group in the filesystem. A descriptor entry describes various things about its associated block group, including the block number at which its inode table begins.)
+Floating IPis a static public IPv4 address that can be attached to your cloud server. It directs traffic to one server at a time and can be moved between multiple servers in a blink of an eye
+lsblk: list block devices (blk = block)
+/etc/fstab: - Your Linux system's filesystem table, aka fstab, is a configuration table designed to ease the burden of mounting and unmounting file systems to a machine. It is a set of rules used to control how different filesystems are treated each time they are introduced to a system.
+/proc/mounts: file lists the status of all currently mounted file systems in a format similar to fstab:
+/etc/modules.conf:	It contains the configuration files for the system modules.
+chattr: change file attributes on a Linux file system
+GNU: is a Unix-like operating system. That means it is a collection of many programs: applications, libraries, developer tools, even games.
+Interrupts: come from devices or CPU (handled by kernel). Synchronous-> at runtime by the CPU (e.g. traps, overflows etc). Asynchronous->external. Maskable-> from INTR pin, can be ignored. non-maskable-> from NMI pin, can't be ignored. Every interrupt is matched with an interrupt handler.
+usermod: modify a user account
+uname -r: print kernel version
+/opt: - optional or third-party software.
+OSPF: internal gateway protocol  using dijkstra (or shortest path first)
+strace: trace system calls and signals
+fg: resumes execution of a suspended process as if they had been started with &. Use fg command to restart a stopped foreground process
+lxc-create: creates a container
+RAID 4: consists of block-level striping with a dedicated parity disk.
+A hard link: always points a filename to data on a storage device. A soft link always points a filename to another filename, which then points to information on a storage device
+genmask: netmask. You apply && bitwise operator to the IP of the packet to find next hop
+route: show / manipulate the IP routing table
+nmap: Network exploration tool and security / port scanner
+lvcreate: Create a logical volume
+Logical volume management: (LVM) is a form of storage virtualization that offers system administrators a more flexible approach to managing disk storage space than traditional partitioning. Unity: is a graphical shell for the GNOME desktop environment originally developed by Canonical Ltd. for its Ubuntu operating system.
+mkfs: build a Linux filesystem
+/var: 	- log files.
+gateway field in the routing table: next hop
+swap partitions/files: are extra temporary storage space on a solid-state drive or hard disk used by the OS when the system runs low on memory.
+OpenStack: is a collection of open source software for deploying cloud computing infrastructures (infrastructure as a service) like managin compute, storage and networking virtual resources for datacenters using APIs.
+groupmod: modify a group definition on the system
+Floating IPis a static public IPv4 address that can be attached to your cloud server. It directs traffic to one server at a time and can be moved between multiple servers in a blink of an eye
+Task list: The kernel stores the list of processes in a circular doubly linked list called the task list. Each element in the task list is a process descriptor of the type struct task_struct. The process descriptor contains the data that describes the executing programopen files, the process's address space, pending signals, the process's state, and much more.
+dhclient: provides a means for configuring one or more network interfaces using the Dynamic Host Configuration Protocol, BOOTP protocol, or if these protocols fail,  by  statically assigning an address.
+Discretionary Access Control: (DAC) is a type of access control defined by the Trusted Computer System Evaluation Criteria (TCSEC) as a means of restricting access to objects based on the identity of subjects and/or groups to which they belong.
+Interrupt vectors - IRQs: 0..31 -> traps + exceptions, 32..127 -> dev intr, 128 -> sys calls, 129..255 others
+The intent of the modified interface is to reduce the portion of the guest's execution time spent performing operations which are substantially more difficult to run in a virtual environment compared to a non:virtualized environment. The paravirtualization provides specially defined 'hooks' to allow the guest(s) and host to request and acknowledge these tasks, which would otherwise be executed in the virtual domain (where execution performance is worse).
+A RAID 0 array of n drives provides data read and write transfer rates up to n times as high as the individual drive rates, but with no data redundancy.
+/proc/modules:	Currently used kernel modules
+paravirtualization: is a virtualization technique that presents a software interface to the virtual machines which is similar, yet not identical, to the underlying hardware–software interface.
+zcat: cat compressed files' data
+/usr/sbin:	It contains binaries for Super User, for System Administration.
+(Superblock:  is a record of the characteristics of a filesystem. It includes information about fs size, block size, empty and filled blocks. Linux also maintains a copy of its superblock in memory. If you are unable to mount your device, this can be due to a Corrupted superblock.)
+lxc-info: query information about a container
+/usr/include:	 It contains standard files used by C programs
+VRAM: (video RAM) refers to any type of random access memory (RAM) specifically used to store image data for a computer display.
+OpenStack Security groups: are sets of IP filter rules that are applied to all project instances, which define networking access to the instance
+OpenStack Roles: define which actions users can perform. You assign roles to user-project pairs.
+An OpenStack router: is a logical component that forwards data packets between networks. It also provides Layer 3 and NAT forwarding to provide external network access for servers on project networks.
+RAID 2 and 3: are rarely used in practice.
+/sbin: - binary executable programs for an administrator.
+/proc/interrupts:	 it keeps information about interrupts per IRQ
+RAID 5: consists of block-level striping with distributed parity. Unlike in RAID 4, parity information is distributed among the drives.
+OpenStack Networking: allows you to create and manage network objects, such as networks, subnets, and ports, which other OpenStack services can use. Plug-ins can be implemented to accommodate different networking equipment and software, providing flexibility to OpenStack architecture and deployment.
+/boot/vmlinux: – The Linux kernel file
+OpenMetal: provides on-deman private cloud infrastructure.
+/boot	:- It contains all the boot-related information files and folders such as conf, grub, etc.
